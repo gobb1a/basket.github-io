@@ -1,6 +1,17 @@
 <!DOCTYPE html>
 <html>
 <head>
+   <script>
+     if ('serviceWorker' in navigator) {
+       window.addEventListener('load', function() {
+         navigator.serviceWorker.register('/service-worker.js').then(function(registration) {
+           console.log('ServiceWorker registration successful with scope: ', registration.scope);
+         }).catch(function(error) {
+           console.log('ServiceWorker registration failed: ', error);
+         });
+       });
+     }
+   </script>
  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
  <title>Баскетбольный Рай</title>
  <link rel="stylesheet" href="style.css">
