@@ -1,0 +1,177 @@
+body {
+    font-family: 'arial', sans-serif; 
+    margin: 0;
+    background-color: #fffdfa;
+}
+.logo {
+    width: 100%; /* Занимает всю ширину сайта */
+    text-align: center; /* Центрирует изображение внутри контейнера */ 
+}
+.logo img {
+    width:234px; /* Размер изображения */
+    height: 150px;
+}
+header {
+    background-color: #f84f0e;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+	font-size: 52px;
+    position: relative; /* Добавлено для позиционирования */
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between; /* Размещение элементов по краям */
+    align-items: center; /* Вертикальное выравнивание по центру */
+    width: 100%; /* Занимает всю ширину */
+}
+
+.advantages {
+  display: flex;
+  justify-content: space-around; 
+  margin: 60px 150px; /*  Отступы сверху и снизу  */
+  padding: 20px; /*  Отступы слева и справа  */
+  background-color: #f84f0e; 
+  border-radius: 10px;
+   font-size: 22px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.advantage {
+  text-align: center;
+  color: #fffdfa;
+  width: 250px; 
+}
+
+.advantage img {
+  width: 130px; /*  Размер изображения  */
+  height: 130px;
+  margin-bottom: 10px; /*  Отступ снизу  */
+}
+
+.advantage h3 {
+  margin-bottom: 15px; /*  Отступ снизу  */
+}
+
+.advantage p {
+  font-size: 18px;
+}
+
+.address {
+	font-family: 'Times New Roman', sans-serif; 
+	font-size: 22px;
+	color: #fffdfa;
+	padding-left: 20px;
+}
+
+.cart-icon {
+    position: absolute; 
+    top: 5px; 
+    right: 20px; 
+}
+
+.cart-icon a { /* Стили для ссылки внутри элемента .cart-icon */
+    display: block; /*  Занимает все доступное пространство */
+	
+}
+
+.cart-icon a:hover { /*  Стили при наведении курсора */
+    background-color: white; /*  Задний фон при наведении */
+    cursor: pointer; /*  Изменение курсора на указатель */
+}
+
+.cart-icon img {
+    width: 90px; /* Размер изображения */
+    height: 90px;
+}
+
+.user-icon a { /* Стили для ссылки внутри элемента .cart-icon */
+    display: block; /*  Занимает все доступное пространство */
+	
+}
+
+.user-icon a:hover { /*  Стили при наведении курсора */
+    background-color: white; /*  Задний фон при наведении */
+    cursor: pointer; /*  Изменение курсора на указатель */
+}
+
+.user-icon {
+	position: absolute; /* Позиционирование относительно родительского элемента */
+    top: 13px; /* Положение сверху */
+    right: 120px; /* Положение справа */
+}
+
+.user-icon img {
+    width: 80px; /* Размер изображения */
+    height: 80px;
+}
+
+big-image {
+    width: 100%; /* Занимает всю ширину сайта */
+    text-align: center; /* Центрирует изображение внутри контейнера */ 
+}
+
+.big-image img {
+    max-width: 80%; /* Максимальная ширина изображения */
+    height: auto; /* Автоматическая высота */
+    margin: 30px auto 60px auto; /*  Отступы: 70px сверху, 150px снизу, 0 слева и справа */
+    border: #f84f0e;
+    display: block; /* Важно для центрирования изображения */
+    width: 900px; /* Размер изображения */
+    height: 580px;
+}
+
+
+main {
+    padding: 30px;
+}
+
+.categories {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 60px;
+}
+
+.category {
+    background-color: #f84f0e;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 200px;
+    padding: 15px;
+    cursor: pointer; 
+	font-size: 20px;
+}
+
+.category:hover {
+    box-shadow: 0 14px 15px rgba(0, 0, 0, 0.2);
+}
+
+.category img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px; /* Закругление   */
+}
+
+.category-title {
+	color: #fffdfa;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+footer {
+    background-color: #f84f0e;
+    color: #fffdfa;
+    text-align: center;
+    padding: 1em 0;
+    position: static;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+	height: 6%;
+}
+
+
