@@ -1,10 +1,10 @@
 const staticCacheName = 'CacheSpace1';
 
 const assetUrls = [
-  'https://basket.github.io/icons', 
-  'https://basket.github.io/css/style.css', 
-  'https://basket.github.io/background', 
-  'https://basket.github.io/index.html', 
+  'https://gobb1a.github.io/basket.github.io//icons', 
+  'https://gobb1a.github.io/basket.github.io//style.css', 
+  'https://gobb1a.github.io/basket.github.io//background', 
+  'https://gobb1a.github.io/basket.github.io//index.html', 
 ];
 
 self.addEventListener('install', async event => {
